@@ -1,16 +1,19 @@
-# project_internship
+Flutter Week 1 Project: Login & Navigation App
+This project is a simple Flutter application developed as part of Week 1 tasks for learning basic Flutter development and UI building. It includes a login screen with form validation and navigation to a home screen.
 
-A new Flutter project.
+Features
+Login Screen:
 
-## Getting Started
+Two input fields for email and password.
+A "Login" button to validate inputs and navigate to the home screen.
+A "Forgot Password?" placeholder text.
+Form Validation:
 
-This project is a starting point for a Flutter application.
+Email validation to ensure proper format.
+Password validation to ensure it is not empty.
+Navigation:
 
-A few resources to get you started if this is your first Flutter project:
+Seamless navigation from the login screen to the home screen using Navigator.push().
+Home Screen:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Displays a simple welcome message.
